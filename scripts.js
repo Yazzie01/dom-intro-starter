@@ -22,7 +22,7 @@ for(let span of dkBlueSpans){
 }
 
 // select svg icons and change stroke color on each
-let svgs = document.querySelectorAll("#svgs svg"); //Go to the id of svgs and retreive the svgs inside
+let svgs = document.querySelectorAll("#svgs svg"); //Go to the id of svgs and retrieve the svg elements inside
 
 //array of colors to change the stroke to
-let color = []
+let color = ["", "", "", "", ""];
